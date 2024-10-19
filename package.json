@@ -1,6 +1,0 @@
-{
-  "scripts": {
-    "f": "cd ./UI-server && npm i && npm run host",
-    "b": "cd ./Core-Java && gradle build && java -jar ./app/build/libs/app.jar"
-  }
-}
