@@ -1,8 +1,8 @@
-package org.rubilnik.basicLogic;
+package org.rubilnik;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import org.rubilnik.basicLogic.users.User;
+import org.rubilnik.users.User;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
@@ -199,4 +199,5 @@ public class Quiz {
             }
         }
     }
+
 }

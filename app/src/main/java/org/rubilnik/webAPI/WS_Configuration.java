@@ -244,8 +244,6 @@ public class WS_Configuration implements WebSocketConfigurer {
             } catch (Exception e) { handle_WS_requestException(e);}
         }
 
-        
-
         static class ChoiceRequest_Data{
             public int questionInd, choiceInd;
             // ChoiceRequest_Data(int questionInd, int choiceInd){this.questionInd = questionInd;this.choiceInd = choiceInd;}
@@ -268,7 +266,5 @@ public class WS_Configuration implements WebSocketConfigurer {
 
             } catch (Exception e) { handle_WS_requestException(e); }
         }
-
     }
-
 }

@@ -5,19 +5,12 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**/Thumbs.db": true,
-        "gradlew": true,
-        "gradlew.bat": true,
-        "settings.gradle.kts": true,
-        "gradle": true,
-        ".gitattributes": true
+        "**/Thumbs.db": true
     },
     "hide-files.files": [
-        "gradlew",
-        "gradlew.bat",
-        "settings.gradle.kts",
-        "gradle",
-        ".gitattributes"
+        ".vscode",
+        ".gradle",
+        "gradle"
     ],
     "java.configuration.updateBuildConfiguration": "interactive"
 }
